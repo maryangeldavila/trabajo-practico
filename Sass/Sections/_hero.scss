@@ -1,0 +1,27 @@
+#hero{
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    background-color: $herofondoazul;
+    background-size: cover;
+    padding: 30px 0;
+    font-size: 30px;
+    
+    img{
+        width: 80%;
+    }
+    
+    h2{
+        font-family: $titulo;
+        font-weight: 700;
+        color: $blanco;
+        text-align: center;
+
+        span{
+            display: block;
+            color: $heroazul;
+            text-decoration: underline;
+            width: 100%;
+        }
+    }
+}
