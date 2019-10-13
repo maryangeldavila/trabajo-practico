@@ -1,0 +1,28 @@
+/***Colores***/
+/***Fuentes***/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  width: 100%;
+}
+
+.menu {
+  width: 90%;
+  margin: 20px auto;
+  background-color: blue;
+  text-decoration: none;
+  list-style: none;
+}
+
+.submenu {
+  display: none;
+}
+
+header nav ul li {
+  float: left;
+}
+
+/*# sourceMappingURL=estilos.css.map */
