@@ -1,5 +1,7 @@
-/***Colores***/
 /***Fuentes***/
+/***Colores***/
+/***Sombreado***/
+/***Bordes***/
 #hero {
   box-sizing: border-box;
   width: 100%;
@@ -31,14 +33,69 @@
   position: relative;
   background-color: #ecf5ff;
   background-size: contain;
-  padding: 30px 10px;
+  padding: 60px 15px 40px;
   text-align: center;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 #services header {
   width: 100%;
   padding-bottom: 60px;
 }
-#services header h3 {
+#services header p {
+  color: #556877;
+  line-height: 1.5;
+}
+#services #services-cards {
+  width: 100%;
+}
+#services #services-cards .services-card {
+  padding: 30px;
+  margin: 0 10px 40px 10px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+#services #services-cards .services-card .icon {
+  position: absolute;
+  left: -20px;
+  top: calc(50% - 40px);
+}
+#services #services-cards .services-card .icon .fa-chart-line {
+  color: #ff689b;
+  font-size: 80px;
+}
+#services #services-cards .services-card h4 {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: left;
+  margin-left: 40px;
+}
+#services #services-cards .services-card h4 a {
+  text-decoration: none;
+  color: #111;
+  transition: 0.5s;
+}
+#services #services-cards .services-card p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 40px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+body {
+  color: #283d50;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+h3 {
   font-size: 32px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -46,17 +103,6 @@
   margin: 0 0 20px 0;
   padding: 0;
   line-height: 1.2;
-}
-#services header p {
-  color: #556877;
-  padding: 0;
-  line-height: 1.5;
-}
-
-body {
-  color: #283d50;
-  font-family: "Open Sans", sans-serif;
-  font-size: 15px;
 }
 
 .flexbox-center {
