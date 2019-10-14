@@ -49,7 +49,7 @@
   width: 100%;
 }
 #services #services-cards .services-card {
-  padding: 30px;
+  padding: 0px 15px 10px 25px;
   margin: 0 10px 40px 10px;
   box-sizing: border-box;
   position: relative;
@@ -61,12 +61,29 @@
 }
 #services #services-cards .services-card .icon {
   position: absolute;
-  left: -20px;
+  left: -10px;
   top: calc(50% - 40px);
+}
+#services #services-cards .services-card .icon .fas {
+  font-size: 60px;
 }
 #services #services-cards .services-card .icon .fa-chart-line {
   color: #ff689b;
-  font-size: 80px;
+}
+#services #services-cards .services-card .icon .fa-book-open {
+  color: #e9bf06;
+}
+#services #services-cards .services-card .icon .fa-file-alt {
+  color: #3fcdc7;
+}
+#services #services-cards .services-card .icon .fa-tachometer-alt {
+  color: #41cf2e;
+}
+#services #services-cards .services-card .icon .fa-globe {
+  color: #d6ff22;
+}
+#services #services-cards .services-card .icon .fa-clock {
+  color: #4680ff;
 }
 #services #services-cards .services-card h4 {
   font-size: 18px;
@@ -103,6 +120,11 @@ h3 {
   margin: 0 0 20px 0;
   padding: 0;
   line-height: 1.2;
+}
+
+.section-header {
+  display: block;
+  box-sizing: border-box;
 }
 
 .flexbox-center {

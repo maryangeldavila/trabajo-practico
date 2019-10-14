@@ -16,6 +16,11 @@ h3{
     line-height: 1.2;
 }
 
+.section-header{
+        display: block;
+        box-sizing: border-box;
+}
+
 .flexbox-center{
     display: flex;
     flex-direction: row;
