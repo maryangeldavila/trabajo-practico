@@ -1,9 +1,41 @@
 @import 'common/all';
 
+body{
+    color: $texto;
+    font-family: $parrafo;
+    font-size: 15px;
+}
+
 .flexbox-center{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+}
+
+.boton{
+    border: 2px solid;
+    border-radius: 50px;
+    color: $blanco;
+    font-family: $titulo;
+    font-size: 14px;
+    line-height: 14px;
+    height: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 20px 20px 0;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+
+.b-azul{
+    background-color: $azulmedio;
+    border-color: $azulmedio;
+}
+
+.b-blanco{
+    border-color: $blanco;
 }

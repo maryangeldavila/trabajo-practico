@@ -1,0 +1,30 @@
+#services{
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    background-color: $servicesfondo;
+    background-size: contain;
+    padding: 30px 10px;
+    text-align: center;
+
+    header{
+        width: 100%;
+        padding-bottom: 60px;
+
+        h3{
+            font-size: 32px;
+            font-family: $titulo;
+            font-weight: 500;
+            text-align: center;
+            margin: 0 0 20px 0;
+            padding: 0;
+            line-height: 1.2;
+        }
+
+        p{
+            color: $grisazul;
+            padding: 0;
+            line-height: 1.5;
+        }
+    }
+}
