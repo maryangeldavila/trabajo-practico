@@ -27,19 +27,39 @@
   width: 100%;
 }
 
-#services {
+#portfolio {
   box-sizing: border-box;
-  width: 100%;
   position: relative;
-  background-color: #ecf5ff;
-  background-size: contain;
-  padding: 60px 15px 40px;
-  text-align: center;
-  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-}
-#services header {
   width: 100%;
-  padding-bottom: 60px;
+  padding: 0 15px;
+}
+#portfolio .flexbox-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#portfolio .flexbox-row .portfolio-filters {
+  padding: 0;
+  margin: 5px 0 35px 0;
+  list-style: none;
+  text-align: center;
+}
+#portfolio .flexbox-row .portfolio-filters .filters-boton {
+  color: #007bff;
+  background-color: #ecf5ff;
+  cursor: pointer;
+  margin: 15px 15px 15px 0;
+  display: inline-block;
+  padding: 6px 20px;
+  font-size: 12px;
+  line-height: 20px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+#services {
+  background-color: #ecf5ff;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 #services header p {
   color: #556877;
@@ -120,6 +140,16 @@ h3 {
   margin: 0 0 20px 0;
   padding: 0;
   line-height: 1.2;
+}
+
+.section-header {
+  width: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  background-size: contain;
+  padding: 60px 15px 60px;
+  text-align: center;
 }
 
 .section-header {

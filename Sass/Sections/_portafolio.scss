@@ -1,0 +1,32 @@
+#portfolio{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    padding: 0 15px;
+
+    .flexbox-row{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        .portfolio-filters{
+            padding: 0;
+            margin: 5px 0 35px 0;
+            list-style: none;
+            text-align: center;
+
+            .filters-boton{
+                color: $portfoliotexto;
+                background-color: $portfolioboton;
+                cursor: pointer;
+                margin: 15px 15px 15px 0;
+                display: inline-block;
+                padding: 6px 20px;
+                font-size: 12px;
+                line-height: 20px;
+                border-radius: $bordemedio;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+    }
+}

@@ -17,6 +17,16 @@ h3{
 }
 
 .section-header{
+    width: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    background-size: contain;
+    padding: 60px 15px 60px;
+    text-align: center;
+}
+
+.section-header{
         display: block;
         box-sizing: border-box;
 }
