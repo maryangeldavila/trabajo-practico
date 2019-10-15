@@ -1,22 +1,55 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
 header {
     width: 100%;
+    background: white;
+    margin: 0px;
+    color: black;
 }
-.menu {
+div {
     width: 90%;
-    margin: 20px auto;
-    background-color: blue;
-    text-decoration: none;
-    list-style: none;
+}
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.haburguesa {
+    color: blue;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
-.submenu {
-    display: none;
+nav {
+    width: 45%;
+    background-color: darkblue;
+    color: white;
+    ul li {
+        display: block;
+        list-style: none;
+        padding: 20px auto;
+        border-bottom: 1px solid white;
+    }
+    ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 20px 20px;
+    }
+    .submenu {
+        display: none;
+        position: relative;
+        width: 140px;
+    }
+    .submenu2 {
+        display: none;
+        position: relative;
+        width: 140px;
+    }
 }
-header nav ul li {
-    float: left;
+.submenu :hover {
+    display: block;
+}
+.submenu2 :active {
+    display: block;
 }
